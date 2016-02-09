@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FEt-hA-xfg">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Ripple Transition View Controller-->
+        <scene sceneID="JIr-Ip-468">
+            <objects>
+                <viewController storyboardIdentifier="RippleTransition" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eN4-uq-Ru5" customClass="RippleTransitionViewController" customModule="continuance" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dlY-xV-z2K"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q6I-rS-Pt3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VWh-94-mqk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sG2-KT-Rj1" userLabel="ripple">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="b1V-Lh-IRl"/>
+                                    <constraint firstAttribute="width" constant="100" id="kHo-kX-Y4O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <state key="normal" title="＞">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tappedRippleButton:" destination="eN4-uq-Ru5" eventType="touchUpInside" id="8dS-NG-Pze"/>
+                                    <segue destination="w3i-gp-4rW" kind="custom" identifier="toNextFromButton" customClass="RippleCustomSegue" customModule="continuance" id="PhY-ID-W1v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sG2-KT-Rj1" firstAttribute="centerX" secondItem="VWh-94-mqk" secondAttribute="centerX" id="bHs-Bw-zog"/>
+                            <constraint firstItem="sG2-KT-Rj1" firstAttribute="centerY" secondItem="VWh-94-mqk" secondAttribute="centerY" id="hzW-r0-3iU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="DLv-Kc-kfM"/>
+                    <connections>
+                        <outlet property="rippleButton" destination="sG2-KT-Rj1" id="jMt-48-stV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hsu-u8-eAN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1119" y="376"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OW5-Ir-Plf">
+            <objects>
+                <navigationController storyboardIdentifier="nav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FEt-hA-xfg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WH7-Bm-2qO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eN4-uq-Ru5" kind="relationship" relationship="rootViewController" id="cp5-hP-Qne"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZ9-0K-vpj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="307" y="376"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="C1n-VF-Ef3">
+            <objects>
+                <viewController id="w3i-gp-4rW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Cs-4S-U90"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lxf-yB-dDd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MU5-NZ-eef">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D7L-xw-XaS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1815" y="376"/>
+        </scene>
+    </scenes>
+</document>
