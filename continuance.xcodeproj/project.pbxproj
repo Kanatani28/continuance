@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8097E46D1C69CFC6002BD4D1 /* RippleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8097E46C1C69CFC6002BD4D1 /* RippleAnimation.swift */; };
 		809AD54C1C644AE500A0753B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD54B1C644AE500A0753B /* AppDelegate.swift */; };
 		809AD54E1C644AE500A0753B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD54D1C644AE500A0753B /* ViewController.swift */; };
 		809AD5511C644AE500A0753B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809AD54F1C644AE500A0753B /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 		809AD57D1C644F1F00A0753B /* RippleTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD57C1C644F1F00A0753B /* RippleTransitionViewController.swift */; };
 		809AD57F1C64790100A0753B /* RippleCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD57E1C64790100A0753B /* RippleCustomSegue.swift */; };
 		809AD5811C64793800A0753B /* RippleCustomSegueUnwind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD5801C64793800A0753B /* RippleCustomSegueUnwind.swift */; };
+		80D2F06F1C6F69C5003BBE86 /* RippleNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2F06E1C6F69C5003BBE86 /* RippleNavigationViewController.swift */; };
+		80D2F0711C6F709A003BBE86 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2F0701C6F709A003BBE86 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8097E46C1C69CFC6002BD4D1 /* RippleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleAnimation.swift; sourceTree = "<group>"; };
 		809AD5481C644AE500A0753B /* continuance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = continuance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809AD54B1C644AE500A0753B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		809AD54D1C644AE500A0753B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		809AD57C1C644F1F00A0753B /* RippleTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleTransitionViewController.swift; sourceTree = "<group>"; };
 		809AD57E1C64790100A0753B /* RippleCustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleCustomSegue.swift; sourceTree = "<group>"; };
 		809AD5801C64793800A0753B /* RippleCustomSegueUnwind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleCustomSegueUnwind.swift; sourceTree = "<group>"; };
+		80D2F06E1C6F69C5003BBE86 /* RippleNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleNavigationViewController.swift; sourceTree = "<group>"; };
+		80D2F0701C6F709A003BBE86 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,9 +144,12 @@
 			isa = PBXGroup;
 			children = (
 				809AD57A1C644F0000A0753B /* RippleTransitionStoryboard.storyboard */,
+				80D2F0701C6F709A003BBE86 /* NextViewController.swift */,
 				809AD57C1C644F1F00A0753B /* RippleTransitionViewController.swift */,
 				809AD57E1C64790100A0753B /* RippleCustomSegue.swift */,
 				809AD5801C64793800A0753B /* RippleCustomSegueUnwind.swift */,
+				8097E46C1C69CFC6002BD4D1 /* RippleAnimation.swift */,
+				80D2F06E1C6F69C5003BBE86 /* RippleNavigationViewController.swift */,
 			);
 			name = Ripple;
 			sourceTree = "<group>";
@@ -278,10 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8097E46D1C69CFC6002BD4D1 /* RippleAnimation.swift in Sources */,
+				80D2F0711C6F709A003BBE86 /* NextViewController.swift in Sources */,
 				809AD54E1C644AE500A0753B /* ViewController.swift in Sources */,
 				809AD54C1C644AE500A0753B /* AppDelegate.swift in Sources */,
 				809AD57F1C64790100A0753B /* RippleCustomSegue.swift in Sources */,
 				809AD57D1C644F1F00A0753B /* RippleTransitionViewController.swift in Sources */,
+				80D2F06F1C6F69C5003BBE86 /* RippleNavigationViewController.swift in Sources */,
 				809AD5811C64793800A0753B /* RippleCustomSegueUnwind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +521,7 @@
 				809AD5721C644AE500A0753B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		809AD5731C644AE500A0753B /* Build configuration list for PBXNativeTarget "continuanceTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				809AD5751C644AE500A0753B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		809AD5761C644AE500A0753B /* Build configuration list for PBXNativeTarget "continuanceUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				809AD5781C644AE500A0753B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

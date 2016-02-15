@@ -21,16 +21,24 @@ class RippleTransitionViewController: UIViewController {
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
+
+  override func viewWillDisappear(animated: Bool) {
+    super.viewWillDisappear(animated)
+  }
   
   @IBAction func tappedRippleButton(sender: AnyObject) {
-    tapPoint = sender.center
     //self.performSegueWithIdentifier("toNextFromButton", sender: self)
   }
 
+  @IBAction func returnFromSecondView(sender: UIStoryboardSegue) {
+  }
+
+
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    tapPoint = sender?.center
     if let s = segue as? RippleCustomSegue {
       if let point = self.tapPoint {
-        s.tapPoint = point
+        s.tappedPoint = point
       }
     }
   }

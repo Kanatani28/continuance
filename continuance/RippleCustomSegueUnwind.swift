@@ -10,4 +10,12 @@ import UIKit
 
 class RippleCustomSegueUnwind: UIStoryboardSegue {
 
+  var tappedPoint:CGPoint!
+
+  override func perform() {
+    let source = self.sourceViewController as UIViewController!
+
+    source?.navigationController?.popViewControllerAnimated(true)
+
+  }
 }
