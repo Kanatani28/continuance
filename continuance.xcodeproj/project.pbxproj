@@ -11,7 +11,6 @@
 		809AD54C1C644AE500A0753B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD54B1C644AE500A0753B /* AppDelegate.swift */; };
 		809AD54E1C644AE500A0753B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD54D1C644AE500A0753B /* ViewController.swift */; };
 		809AD5511C644AE500A0753B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809AD54F1C644AE500A0753B /* Main.storyboard */; };
-		809AD5531C644AE500A0753B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809AD5521C644AE500A0753B /* Assets.xcassets */; };
 		809AD5561C644AE500A0753B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809AD5541C644AE500A0753B /* LaunchScreen.storyboard */; };
 		809AD5611C644AE500A0753B /* continuanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD5601C644AE500A0753B /* continuanceTests.swift */; };
 		809AD56C1C644AE500A0753B /* continuanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD56B1C644AE500A0753B /* continuanceUITests.swift */; };
@@ -19,8 +18,19 @@
 		809AD57D1C644F1F00A0753B /* RippleTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD57C1C644F1F00A0753B /* RippleTransitionViewController.swift */; };
 		809AD57F1C64790100A0753B /* RippleCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD57E1C64790100A0753B /* RippleCustomSegue.swift */; };
 		809AD5811C64793800A0753B /* RippleCustomSegueUnwind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AD5801C64793800A0753B /* RippleCustomSegueUnwind.swift */; };
+		80D13B8A1C7344B300868A44 /* CustomTransitionStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D13B891C7344B300868A44 /* CustomTransitionStoryboard.storyboard */; };
+		80D13B8C1C73453500868A44 /* CustomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D13B8B1C73453500868A44 /* CustomTransitionViewController.swift */; };
+		80D13B901C755E4900868A44 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D13B8F1C755E4900868A44 /* ContentViewController.swift */; };
+		80D13B921C755E5700868A44 /* ContentStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D13B911C755E5700868A44 /* ContentStoryboard.storyboard */; };
+		80D13B951C75924200868A44 /* CatchContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D13B931C75924200868A44 /* CatchContentViewController.swift */; };
+		80D13B961C75924200868A44 /* CatchContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D13B941C75924200868A44 /* CatchContentViewController.xib */; };
+		80D13BA11C7A02E000868A44 /* ContentMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D13BA01C7A02E000868A44 /* ContentMainStoryboard.storyboard */; };
+		80D13BA31C7A02F800868A44 /* ContentMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D13BA21C7A02F800868A44 /* ContentMainViewController.swift */; };
+		80D13BA51C7A061E00868A44 /* ContentMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D13BA41C7A061E00868A44 /* ContentMediaView.swift */; };
+		80D13BA71C7A063F00868A44 /* ContentMediaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D13BA61C7A063F00868A44 /* ContentMediaView.xib */; };
 		80D2F06F1C6F69C5003BBE86 /* RippleNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2F06E1C6F69C5003BBE86 /* RippleNavigationViewController.swift */; };
 		80D2F0711C6F709A003BBE86 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2F0701C6F709A003BBE86 /* NextViewController.swift */; };
+		80FAD7371C7C54F900E56382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FAD7361C7C54F900E56382 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +56,6 @@
 		809AD54B1C644AE500A0753B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		809AD54D1C644AE500A0753B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		809AD5501C644AE500A0753B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		809AD5521C644AE500A0753B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		809AD5551C644AE500A0753B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		809AD5571C644AE500A0753B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		809AD55C1C644AE500A0753B /* continuanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = continuanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,8 +68,19 @@
 		809AD57C1C644F1F00A0753B /* RippleTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleTransitionViewController.swift; sourceTree = "<group>"; };
 		809AD57E1C64790100A0753B /* RippleCustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleCustomSegue.swift; sourceTree = "<group>"; };
 		809AD5801C64793800A0753B /* RippleCustomSegueUnwind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleCustomSegueUnwind.swift; sourceTree = "<group>"; };
+		80D13B891C7344B300868A44 /* CustomTransitionStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomTransitionStoryboard.storyboard; sourceTree = "<group>"; };
+		80D13B8B1C73453500868A44 /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransitionViewController.swift; sourceTree = "<group>"; };
+		80D13B8F1C755E4900868A44 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		80D13B911C755E5700868A44 /* ContentStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ContentStoryboard.storyboard; sourceTree = "<group>"; };
+		80D13B931C75924200868A44 /* CatchContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatchContentViewController.swift; sourceTree = "<group>"; };
+		80D13B941C75924200868A44 /* CatchContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatchContentViewController.xib; sourceTree = "<group>"; };
+		80D13BA01C7A02E000868A44 /* ContentMainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ContentMainStoryboard.storyboard; sourceTree = "<group>"; };
+		80D13BA21C7A02F800868A44 /* ContentMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentMainViewController.swift; sourceTree = "<group>"; };
+		80D13BA41C7A061E00868A44 /* ContentMediaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentMediaView.swift; sourceTree = "<group>"; };
+		80D13BA61C7A063F00868A44 /* ContentMediaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentMediaView.xib; sourceTree = "<group>"; };
 		80D2F06E1C6F69C5003BBE86 /* RippleNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleNavigationViewController.swift; sourceTree = "<group>"; };
 		80D2F0701C6F709A003BBE86 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		80FAD7361C7C54F900E56382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +131,13 @@
 		809AD54A1C644AE500A0753B /* continuance */ = {
 			isa = PBXGroup;
 			children = (
+				80FAD7361C7C54F900E56382 /* Assets.xcassets */,
+				80D13B9B1C79FFD700868A44 /* AsynchroScroll */,
+				80D13B881C73448B00868A44 /* CustomTransition */,
 				809AD5791C644EB700A0753B /* Ripple */,
 				809AD54B1C644AE500A0753B /* AppDelegate.swift */,
 				809AD54D1C644AE500A0753B /* ViewController.swift */,
 				809AD54F1C644AE500A0753B /* Main.storyboard */,
-				809AD5521C644AE500A0753B /* Assets.xcassets */,
 				809AD5541C644AE500A0753B /* LaunchScreen.storyboard */,
 				809AD5571C644AE500A0753B /* Info.plist */,
 			);
@@ -152,6 +174,46 @@
 				80D2F06E1C6F69C5003BBE86 /* RippleNavigationViewController.swift */,
 			);
 			name = Ripple;
+			sourceTree = "<group>";
+		};
+		80D13B881C73448B00868A44 /* CustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				80D13B8E1C755AC700868A44 /* contentView */,
+				80D13B8D1C755AB400868A44 /* catchContentView */,
+				80D13B891C7344B300868A44 /* CustomTransitionStoryboard.storyboard */,
+				80D13B8B1C73453500868A44 /* CustomTransitionViewController.swift */,
+			);
+			name = CustomTransition;
+			sourceTree = "<group>";
+		};
+		80D13B8D1C755AB400868A44 /* catchContentView */ = {
+			isa = PBXGroup;
+			children = (
+				80D13B931C75924200868A44 /* CatchContentViewController.swift */,
+				80D13B941C75924200868A44 /* CatchContentViewController.xib */,
+			);
+			name = catchContentView;
+			sourceTree = "<group>";
+		};
+		80D13B8E1C755AC700868A44 /* contentView */ = {
+			isa = PBXGroup;
+			children = (
+				80D13B8F1C755E4900868A44 /* ContentViewController.swift */,
+				80D13B911C755E5700868A44 /* ContentStoryboard.storyboard */,
+			);
+			name = contentView;
+			sourceTree = "<group>";
+		};
+		80D13B9B1C79FFD700868A44 /* AsynchroScroll */ = {
+			isa = PBXGroup;
+			children = (
+				80D13BA01C7A02E000868A44 /* ContentMainStoryboard.storyboard */,
+				80D13BA21C7A02F800868A44 /* ContentMainViewController.swift */,
+				80D13BA41C7A061E00868A44 /* ContentMediaView.swift */,
+				80D13BA61C7A063F00868A44 /* ContentMediaView.xib */,
+			);
+			name = AsynchroScroll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,10 +321,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D13BA11C7A02E000868A44 /* ContentMainStoryboard.storyboard in Resources */,
 				809AD57B1C644F0000A0753B /* RippleTransitionStoryboard.storyboard in Resources */,
+				80D13B961C75924200868A44 /* CatchContentViewController.xib in Resources */,
+				80D13B8A1C7344B300868A44 /* CustomTransitionStoryboard.storyboard in Resources */,
 				809AD5561C644AE500A0753B /* LaunchScreen.storyboard in Resources */,
-				809AD5531C644AE500A0753B /* Assets.xcassets in Resources */,
+				80D13BA71C7A063F00868A44 /* ContentMediaView.xib in Resources */,
 				809AD5511C644AE500A0753B /* Main.storyboard in Resources */,
+				80FAD7371C7C54F900E56382 /* Assets.xcassets in Resources */,
+				80D13B921C755E5700868A44 /* ContentStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +354,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D13B901C755E4900868A44 /* ContentViewController.swift in Sources */,
+				80D13BA31C7A02F800868A44 /* ContentMainViewController.swift in Sources */,
+				80D13BA51C7A061E00868A44 /* ContentMediaView.swift in Sources */,
 				8097E46D1C69CFC6002BD4D1 /* RippleAnimation.swift in Sources */,
 				80D2F0711C6F709A003BBE86 /* NextViewController.swift in Sources */,
 				809AD54E1C644AE500A0753B /* ViewController.swift in Sources */,
+				80D13B8C1C73453500868A44 /* CustomTransitionViewController.swift in Sources */,
 				809AD54C1C644AE500A0753B /* AppDelegate.swift in Sources */,
 				809AD57F1C64790100A0753B /* RippleCustomSegue.swift in Sources */,
 				809AD57D1C644F1F00A0753B /* RippleTransitionViewController.swift in Sources */,
+				80D13B951C75924200868A44 /* CatchContentViewController.swift in Sources */,
 				80D2F06F1C6F69C5003BBE86 /* RippleNavigationViewController.swift in Sources */,
 				809AD5811C64793800A0753B /* RippleCustomSegueUnwind.swift in Sources */,
 			);

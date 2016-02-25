@@ -15,9 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    let storyboard:UIStoryboard = UIStoryboard(name:"RippleTransitionStoryboard", bundle: nil)
-    let viewController:UIViewController = storyboard.instantiateViewControllerWithIdentifier("nav")
-    window?.rootViewController = viewController
+//    let storyboard:UIStoryboard = UIStoryboard(name:"RippleTransitionStoryboard", bundle: nil)
+//    let viewController:UIViewController = storyboard.instantiateViewControllerWithIdentifier("nav")
+//    window?.rootViewController = viewController
 
     return true
 

@@ -58,7 +58,7 @@
         <!--Navigation Controller-->
         <scene sceneID="OW5-Ir-Plf">
             <objects>
-                <navigationController storyboardIdentifier="nav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FEt-hA-xfg" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="RippleNavigation" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FEt-hA-xfg" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WH7-Bm-2qO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
