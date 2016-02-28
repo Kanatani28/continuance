@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 protocol CustomTransitionViewControllerProtocol {
     var customTransitionViewController: CustomTransitionViewController { get } // getterの実装を要求している
@@ -33,6 +34,7 @@ class CustomTransitionViewController: UIPageViewController {
       return nil
     }
     return index
+    
   }
 
   override func viewDidLoad() {

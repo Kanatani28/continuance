@@ -12,12 +12,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
   @IBOutlet weak var contentsTableView: UITableView!
 
-  private var contents = ["CustomSegue with RippleAnimation", "AsynchroScroll"]
+  private var contents = ["CustomSegue with RippleAnimation", "AsynchroScroll", "TODO using Bluemix"]
 
   enum demos : Int {
 
     case CustomSegue
     case AsynchroScroll
+    case ToDoUsingBluemix
 
     func toStoryboardName()->String {
       switch (self) {
@@ -25,6 +26,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return "RippleTransitionStoryboard"
       case .AsynchroScroll:
         return "ContentMainStoryboard"
+      case .ToDoUsingBluemix:
+        return "TODOStoryboard"
       }
     }
 
@@ -34,6 +37,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return "RippleTransition"
       case .AsynchroScroll:
         return "ContentMain"
+      case .ToDoUsingBluemix:
+        return "TODO"
       }
     }
 

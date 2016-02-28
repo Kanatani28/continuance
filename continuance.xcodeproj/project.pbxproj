@@ -31,6 +31,11 @@
 		80D2F06F1C6F69C5003BBE86 /* RippleNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2F06E1C6F69C5003BBE86 /* RippleNavigationViewController.swift */; };
 		80D2F0711C6F709A003BBE86 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2F0701C6F709A003BBE86 /* NextViewController.swift */; };
 		80FAD7371C7C54F900E56382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FAD7361C7C54F900E56382 /* Assets.xcassets */; };
+		927E79721C802FE8003A6C95 /* TODOStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927E79711C802FE8003A6C95 /* TODOStoryboard.storyboard */; };
+		927E79741C8034DF003A6C95 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927E79731C8034DF003A6C95 /* ToDoViewController.swift */; };
+		928FA67F1C80B9BC0037E5DE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FA67E1C80B9BC0037E5DE /* Task.swift */; };
+		928FA6811C8205600037E5DE /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928FA6801C8205600037E5DE /* ToDoTableViewCell.swift */; };
+		CFA8CD1F59B6325CCF970B6B /* Pods_continuance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2704771FE184FF046FC9B010 /* Pods_continuance.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2704771FE184FF046FC9B010 /* Pods_continuance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_continuance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6955682B6007338BABB61A80 /* Pods-continuance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-continuance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-continuance/Pods-continuance.debug.xcconfig"; sourceTree = "<group>"; };
 		8097E46C1C69CFC6002BD4D1 /* RippleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleAnimation.swift; sourceTree = "<group>"; };
 		809AD5481C644AE500A0753B /* continuance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = continuance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809AD54B1C644AE500A0753B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +88,12 @@
 		80D2F06E1C6F69C5003BBE86 /* RippleNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleNavigationViewController.swift; sourceTree = "<group>"; };
 		80D2F0701C6F709A003BBE86 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		80FAD7361C7C54F900E56382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		927E79711C802FE8003A6C95 /* TODOStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TODOStoryboard.storyboard; sourceTree = "<group>"; };
+		927E79731C8034DF003A6C95 /* ToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		9288CBDA1C8029BB003AD19E /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		928FA67E1C80B9BC0037E5DE /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		928FA6801C8205600037E5DE /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		A57064D1E53AC49CF378D0B5 /* Pods-continuance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-continuance.release.xcconfig"; path = "Pods/Target Support Files/Pods-continuance/Pods-continuance.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA8CD1F59B6325CCF970B6B /* Pods_continuance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +129,8 @@
 				809AD55F1C644AE500A0753B /* continuanceTests */,
 				809AD56A1C644AE500A0753B /* continuanceUITests */,
 				809AD5491C644AE500A0753B /* Products */,
+				B7485ED54EF06D9EFC69E353 /* Pods */,
+				ABF1CD1778077F63F810DF36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,7 +147,9 @@
 		809AD54A1C644AE500A0753B /* continuance */ = {
 			isa = PBXGroup;
 			children = (
+				9288CBDA1C8029BB003AD19E /* Bridging-Header.h */,
 				80FAD7361C7C54F900E56382 /* Assets.xcassets */,
+				927E79701C802F5B003A6C95 /* SimpleTODOWithBluemix */,
 				80D13B9B1C79FFD700868A44 /* AsynchroScroll */,
 				80D13B881C73448B00868A44 /* CustomTransition */,
 				809AD5791C644EB700A0753B /* Ripple */,
@@ -216,6 +234,42 @@
 			name = AsynchroScroll;
 			sourceTree = "<group>";
 		};
+		927E79701C802F5B003A6C95 /* SimpleTODOWithBluemix */ = {
+			isa = PBXGroup;
+			children = (
+				928FA67D1C80B9750037E5DE /* model */,
+				927E79711C802FE8003A6C95 /* TODOStoryboard.storyboard */,
+				927E79731C8034DF003A6C95 /* ToDoViewController.swift */,
+				928FA6801C8205600037E5DE /* ToDoTableViewCell.swift */,
+			);
+			name = SimpleTODOWithBluemix;
+			sourceTree = "<group>";
+		};
+		928FA67D1C80B9750037E5DE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				928FA67E1C80B9BC0037E5DE /* Task.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		ABF1CD1778077F63F810DF36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2704771FE184FF046FC9B010 /* Pods_continuance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7485ED54EF06D9EFC69E353 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6955682B6007338BABB61A80 /* Pods-continuance.debug.xcconfig */,
+				A57064D1E53AC49CF378D0B5 /* Pods-continuance.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 809AD5701C644AE500A0753B /* Build configuration list for PBXNativeTarget "continuance" */;
 			buildPhases = (
+				AD9F084720B8874563742F75 /* Check Pods Manifest.lock */,
 				809AD5441C644AE500A0753B /* Sources */,
 				809AD5451C644AE500A0753B /* Frameworks */,
 				809AD5461C644AE500A0753B /* Resources */,
+				CAD2CCB7F786725A3A70779E /* Embed Pods Frameworks */,
+				DFB97E6BB22B552EB26A45C4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,6 +383,7 @@
 				80D13B961C75924200868A44 /* CatchContentViewController.xib in Resources */,
 				80D13B8A1C7344B300868A44 /* CustomTransitionStoryboard.storyboard in Resources */,
 				809AD5561C644AE500A0753B /* LaunchScreen.storyboard in Resources */,
+				927E79721C802FE8003A6C95 /* TODOStoryboard.storyboard in Resources */,
 				80D13BA71C7A063F00868A44 /* ContentMediaView.xib in Resources */,
 				809AD5511C644AE500A0753B /* Main.storyboard in Resources */,
 				80FAD7371C7C54F900E56382 /* Assets.xcassets in Resources */,
@@ -349,6 +407,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AD9F084720B8874563742F75 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD2CCB7F786725A3A70779E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-continuance/Pods-continuance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB97E6BB22B552EB26A45C4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-continuance/Pods-continuance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		809AD5441C644AE500A0753B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -360,9 +466,12 @@
 				8097E46D1C69CFC6002BD4D1 /* RippleAnimation.swift in Sources */,
 				80D2F0711C6F709A003BBE86 /* NextViewController.swift in Sources */,
 				809AD54E1C644AE500A0753B /* ViewController.swift in Sources */,
+				927E79741C8034DF003A6C95 /* ToDoViewController.swift in Sources */,
+				928FA67F1C80B9BC0037E5DE /* Task.swift in Sources */,
 				80D13B8C1C73453500868A44 /* CustomTransitionViewController.swift in Sources */,
 				809AD54C1C644AE500A0753B /* AppDelegate.swift in Sources */,
 				809AD57F1C64790100A0753B /* RippleCustomSegue.swift in Sources */,
+				928FA6811C8205600037E5DE /* ToDoTableViewCell.swift in Sources */,
 				809AD57D1C644F1F00A0753B /* RippleTransitionViewController.swift in Sources */,
 				80D13B951C75924200868A44 /* CatchContentViewController.swift in Sources */,
 				80D2F06F1C6F69C5003BBE86 /* RippleNavigationViewController.swift in Sources */,
@@ -441,6 +550,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -485,6 +595,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -504,6 +615,7 @@
 		};
 		809AD5711C644AE500A0753B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6955682B6007338BABB61A80 /* Pods-continuance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -511,11 +623,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shinkawani.continuance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
 		809AD5721C644AE500A0753B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57064D1E53AC49CF378D0B5 /* Pods-continuance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -523,6 +637,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shinkawani.continuance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
