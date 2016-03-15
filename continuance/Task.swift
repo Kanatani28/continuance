@@ -13,6 +13,7 @@ class Task: NSObject {
   var id: Int
   var text: String
   var isDone: Bool
+  var shouldRegister:Bool = false
   
   init(id:Int, text:String, isDone:Bool) {
     
@@ -20,6 +21,14 @@ class Task: NSObject {
     self.text = text
     self.isDone = isDone
     
+  }
+  
+  func toJSON() -> [String:AnyObject] {
+    return [
+      "id":id,
+      "isDone":isDone,
+      "text":text,
+    ]
   }
   
 }
